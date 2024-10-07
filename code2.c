@@ -64,10 +64,10 @@ void convertTemp(int temp, char scale, char target) {
       printf("Comfy: Wear whatever.\n");
     }
     else if (converted <= 35) {
-      printf("Drink water.\n");
+      printf("Hot: Drink water.\n");
     }
     else {
-      printf("Stay inside.\n");
+      printf("Extremely Hot: Stay inside.\n");
     }
   }
   else if (target == 'F') {
@@ -82,10 +82,10 @@ void convertTemp(int temp, char scale, char target) {
       printf("Comfy: Wear whatever.\n");
     }
     else if (tempC <= 35) {
-      printf("Drink water.\n");
+      printf("Hot: Drink water.\n");
     }
     else {
-      printf("Stay inside.\n");
+      printf("Extremely Hot: Stay inside.\n");
     }
   }
   else if (target == 'K') {
@@ -100,10 +100,10 @@ void convertTemp(int temp, char scale, char target) {
       printf("Comfy: Wear whatever.\n");
     }
     else if (tempC <= 35) {
-      printf("Drink water.\n");
+      printf("Hot: Drink water.\n");
     }
     else {
-      printf("Stay inside.\n");
+      printf("Extremely Hot: Stay inside.\n");
     }
   }
 }
